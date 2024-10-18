@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  border-bottom: 1px solid white;
+  margin: 0 4px;
+}
+.header div{
+  display: flex;
+  gap: 20px;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#signup{
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#signup h1{
+  margin-bottom: 10px;
+  text-align: start;
+  width: 400px;
+}
+
+#signup form{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#signup input[type="text"],
+#signup input[type="password"]{
+  height: 40px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 5px;
+}
+
+#signup input[type="submit"]{
+  background-color: white;
+  color: black;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#signup p{
+  margin-top: 10px;
+}
+#signup input[type="text"]:focus,
+#signup input[type="password"]:focus{
+  outline: none;
+}
+
+.profile{
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.profile h2{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.container h4{
+  font-size: 1.3rem;
+}
+.container p{
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+.profile button{
+  width: 100px;
+  background-color: white;
+  color: black;
+  padding: 7px;
+}
